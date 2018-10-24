@@ -6,7 +6,14 @@ namespace OOP_Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+        }
+        /*This is an example of inheritance
+         *The potato class inherits characteristics from class "Root".
+         This inheritance allows potato to have to conform to the specifications of Root.*/
+        class Potato : Root
+        {
+
         }
     }
 }
