@@ -3,14 +3,11 @@
 namespace OOP_Demo
 {
     interface IVegetable { }
-    
-     
-
     /*This class' modifier "abstract" is changing the class so that private information within it can be hidden.
-     This information can still be used for method calling.*/
-    abstract class Program : IVegetable 
+      This information can still be used for method calling.*/
+    abstract class Program : IVegetable
     {
-        
+
         static void carrot() { }
         static void carrot(int i) { }
         static void carrot(string str) { }
@@ -31,10 +28,5 @@ namespace OOP_Demo
         {
 
         }
-
-        
-        
-
-        
     }
 }
